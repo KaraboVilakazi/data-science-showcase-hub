@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-ds-dark">
+    <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
       <main>
         <Hero />
