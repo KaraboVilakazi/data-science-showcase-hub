@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-5 text-ds-secondary">Connect</h3>
             <ul className="text-sm text-gray-400 space-y-3">
               <li className="transition-all hover:text-ds-secondary">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+                <a href="https://github.com/KaraboVilakazi/data-science-showcase-hub" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
                   <span className="border-b border-transparent hover:border-ds-secondary">GitHub</span>
                 </a>
               </li>

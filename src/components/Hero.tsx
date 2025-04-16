@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github } from "lucide-react";
+
 const Hero: React.FC = () => {
   return <section className="bg-white text-ds-primary py-28 md:py-36 relative overflow-hidden">
       <div className="container-custom relative z-10">
@@ -20,7 +21,7 @@ const Hero: React.FC = () => {
                 Explore Research
                 <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </Button>
-              <Button variant="outline" className="bg-transparent border-2 border-ds-secondary text-ds-secondary hover:bg-ds-secondary/10 transition-all duration-300 py-6 px-8 transform hover:-translate-y-1 shadow-lg hover:shadow-ds-secondary/20" onClick={() => window.open("https://github.com/yourusername/sa-education-analysis", "_blank")}>
+              <Button variant="outline" className="bg-transparent border-2 border-ds-secondary text-ds-secondary hover:bg-ds-secondary/10 transition-all duration-300 py-6 px-8 transform hover:-translate-y-1 shadow-lg hover:shadow-ds-secondary/20" onClick={() => window.open("https://github.com/KaraboVilakazi/data-science-showcase-hub", "_blank")}>
                 <Github className="mr-2" />
                 View Repository
               </Button>
@@ -42,4 +43,5 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-white via-ds-secondary/5 to-white opacity-70"></div>
     </section>;
 };
+
 export default Hero;
