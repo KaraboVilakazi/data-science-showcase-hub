@@ -22,9 +22,6 @@ const Navbar: React.FC = () => {
           <a href="#results" className="text-ds-dark hover:text-ds-secondary transition-colors">
             Results
           </a>
-          <a href="#portfolio" className="text-ds-dark hover:text-ds-secondary transition-colors">
-            Portfolio
-          </a>
         </div>
       </div>
     </nav>

@@ -6,7 +6,6 @@ import ProblemStatement from '@/components/ProblemStatement';
 import Dataset from '@/components/Dataset';
 import Methodology from '@/components/Methodology';
 import ResultsVisualizations from '@/components/ResultsVisualizations';
-import Portfolio from '@/components/Portfolio';
 import Footer from '@/components/Footer';
 
 const Index: React.FC = () => {
@@ -19,7 +18,6 @@ const Index: React.FC = () => {
         <Dataset />
         <Methodology />
         <ResultsVisualizations />
-        <Portfolio />
       </main>
       <Footer />
     </div>
