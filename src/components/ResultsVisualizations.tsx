@@ -169,7 +169,7 @@ const ResultsVisualizations: React.FC = () => {
                 </div>
                 
                 <div className="bg-white p-4 rounded-lg border-l-4 border-l-ds-accent">
-                  <h4 className="font-semibold text-ds-accent">Policy Recommendation 2</h4>
+                  <h4 className="font-semibold text-gray-600">Policy Recommendation 2</h4>
                   <p className="text-gray-700">
                     Expand teacher development programs with focus on subject-specific pedagogical training, especially in rural and historically disadvantaged areas.
                   </p>
