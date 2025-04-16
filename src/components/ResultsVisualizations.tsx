@@ -162,7 +162,7 @@ const ResultsVisualizations: React.FC = () => {
               
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg border-l-4 border-l-ds-accent">
-                  <h4 className="font-semibold text-ds-accent">Policy Recommendation 1</h4>
+                  <h4 className="font-semibold text-gray-600">Policy Recommendation 1</h4>
                   <p className="text-gray-700">
                     Implement targeted resource allocation to schools in the bottom performance quartile with emphasis on laboratory equipment and learning materials for STEM subjects.
                   </p>
