@@ -176,7 +176,7 @@ const ResultsVisualizations: React.FC = () => {
                 </div>
                 
                 <div className="bg-white p-4 rounded-lg border-l-4 border-l-ds-accent">
-                  <h4 className="font-semibold text-ds-accent">Policy Recommendation 3</h4>
+                  <h4 className="font-semibold text-slate-600">Policy Recommendation 3</h4>
                   <p className="text-gray-700">
                     Scale up nutrition and support programs nationwide, prioritizing implementation in high-poverty areas to address the significant impact of these basic interventions.
                   </p>
