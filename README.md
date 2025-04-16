@@ -1,4 +1,4 @@
-# Welcome to Data Science of Public Schools in South africa showcase
+# Welcome to Data Analysis of Public Schools in South africa showcase
 
 **Use GitHub Codespaces**
 
