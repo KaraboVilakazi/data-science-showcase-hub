@@ -63,13 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our data science project
+				// Updated color scheme for fashion/minimal look with blue and black
 				ds: {
-					primary: '#2C3E50',
-					secondary: '#1ABC9C',
-					accent: '#E67E22',
-					light: '#ECF0F1',
-					dark: '#34495E',
+					primary: '#0F4C81',    // Deep blue
+					secondary: '#33C3F0',  // Bright blue
+					accent: '#1C2833',     // Dark slate
+					light: '#ECF0F1',      // Light gray
+					dark: '#121212',       // Nearly black
 				}
 			},
 			borderRadius: {

@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -93,6 +93,7 @@
 
   body {
     @apply bg-background text-foreground font-body;
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -116,28 +117,85 @@
   }
 
   section {
-    @apply py-12 md:py-20;
+    @apply py-16 md:py-24;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-ds-primary text-white hover:bg-ds-dark transition-colors px-6 py-3 rounded-md font-medium;
+    @apply bg-ds-secondary text-ds-dark hover:bg-ds-secondary/90 transition-colors px-6 py-3 rounded-md font-medium;
   }
   
   .btn-secondary {
-    @apply bg-ds-secondary text-white hover:opacity-90 transition-colors px-6 py-3 rounded-md font-medium;
+    @apply bg-transparent border border-ds-secondary/70 text-ds-secondary hover:bg-ds-secondary/10 transition-colors px-6 py-3 rounded-md font-medium;
   }
   
   .container-custom {
-    @apply container mx-auto px-4 md:px-8;
+    @apply container mx-auto px-5 md:px-8;
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-ds-primary mb-6;
+    @apply text-3xl md:text-4xl font-bold text-ds-secondary mb-6;
   }
   
   .section-subtitle {
-    @apply text-xl text-ds-dark/80 max-w-3xl mx-auto mb-12;
+    @apply text-lg text-white/80 max-w-3xl mx-auto mb-12;
   }
+}
+
+/* Updated animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Apply animations */
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-up {
+  opacity: 0;
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.animate-scale-in {
+  opacity: 0;
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+/* Animation delays */
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
 }
